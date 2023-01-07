@@ -1,0 +1,1 @@
+cd /home/usr/rf2/ && wine64 ./Bin64/rFactor2\ Dedicated.exe

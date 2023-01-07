@@ -6,16 +6,19 @@ services:
     restart: always
     stop_signal: SIGINT
     ports:
-      # server manager web interface port
+      #VNC
       - 6080:80
+      #rFactor2 ports
       - 54297:54297
       - 54297:54297/udp
       - 64297:64297
+      #rFactor2 steam ports
       - 64298:64298/udp
       - 64299:64299/udp
     volumes:
       - ./Packages:/home/usr/rf2/Packages
       - /dev/shm:/dev/shm
+      - ./Desktop:/root/Desktop
     environment:
       VNC_PASSWORD: changeme 
       RESOLUTION: 1440x720

@@ -1,0 +1,1 @@
+steamcmd +@sSteamCmdForcePlatformType windows +force_install_dir /home/usr/rf2 +login anonymous +app_update 400300 +quit

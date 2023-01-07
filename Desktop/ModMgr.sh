@@ -1,0 +1,1 @@
+cd /home/usr/rf2/ && wine64 ./Bin64/ModMgr.exe # (if it is executable)

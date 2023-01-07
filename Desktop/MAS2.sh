@@ -1,0 +1,1 @@
+cd /home/usr/rf2/ && wine64 ./Support/Tools/MAS2.exe
